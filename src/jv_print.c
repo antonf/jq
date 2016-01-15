@@ -23,7 +23,7 @@ static const jv_kind color_kinds[] =
   {JV_KIND_NULL,   JV_KIND_FALSE, JV_KIND_TRUE, JV_KIND_NUMBER,
    JV_KIND_STRING, JV_KIND_ARRAY, JV_KIND_OBJECT};
 static const char* const colors[] =
-  {COL("1;30"),    COL("0;39"),      COL("0;39"),     COL("0;39"),
+  {COL("0;37"),    COL("0;39"),      COL("0;39"),     COL("0;39"),
    COL("0;32"),      COL("1;39"),     COL("1;39")};
 #define FIELD_COLOR COL("34;1")
 
